@@ -1,0 +1,39 @@
+1. BOOTSTRAP SIMPLE
+npm install bootstrap
+ADD- import 'bootstrap/dist/css/bootstrap.css';
+
+2. REACT BOOTSTRAP
+npm install react-bootstrap bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+3. REACT ROUTER DOM INSTALL 
+npm i react-router-dom
+
+4. FORMIK INSTALLATION
+npm i formik
+import { useFormik } from "formik";
+
+5. YUP INSTALLING 
+npm install yup --save
+import * as Yup from "yup";
+
+6. REACT ROUTER DOM
+npm i react-router-dom
+
+
+7. REDUX INSTALL
+npm install @reduxjs/toolkit  react-redux redux-thunk
+
+
+8. TAILWIND INSTALL
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
